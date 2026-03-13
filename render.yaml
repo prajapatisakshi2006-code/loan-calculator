@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: loan-calculator
+    runtime: java
+    buildCommand: javac LoanServer.java
+    startCommand: java LoanServer
